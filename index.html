@@ -1,17 +1,51 @@
 <!DOCTYPE html>
-<html lang='en'>
-
+<html>
 <head>
-  <meta charset='UTF-8'>
-  <title>Docker Static HTML Deployment</title>
-
-  <link rel="stylesheet" href="styles.css">
+  <title>Donation Message</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f1f1f1;
+    }
+    
+    h1 {
+      color: #333;
+      font-size: 28px;
+      margin-top: 50px;
+    }
+    
+    p {
+      color: #666;
+      font-size: 18px;
+      margin-bottom: 50px;
+    }
+    
+    .donation-button {
+      margin-top: 20px;
+    }
+    
+    .donation-button input {
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .donation-button input:hover {
+      background-color: #45a049;
+    }
+  </style>
 </head>
-
 <body>
-  <div class="container">
-    <h1>Hey there</h1>
+  <h1>Murad is taking physical donations to keep this up and running!</h1>
+  <p>All donations over 5 USD will get their own Firefox school unblocker, and for 10 USD their own website! Deliver to Mr. OT Room during advisory!</p>
+  
+  <!-- Donation Button -->
+  <div class="donation-button">
+    <input type="button" value="Make a Donation">
   </div>
 </body>
-
 </html>
